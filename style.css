@@ -4,6 +4,12 @@
 --dark-grayish-blue: hsl(232, 10%, 55%);
 --grayish-blue: hsl(210, 4%, 67%);
 --white: hsl(0, 0%, 100%);
+
+--soft-red: hsl(7, 99%, 70%);
+--yellow: hsl(51, 100%, 49%);
+--dark-desaturated-cyan: hsl(167, 40%, 24%);
+--dark-blue:  hsl(198, 62%, 26%);
+--dark-moderate-cyan: hsl(168, 34%, 41%);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
@@ -84,7 +90,29 @@ header {
     flex-direction: column;
 }
 
+.content-title {
+    color: var(--very-dark-blue);
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    text-align: center;
+}
 
+.section-text {
+    font-size: 1.5rem;
+    color: var(--very-dark-grayish-blue);
+    text-align: justify;
+    padding: 0em 2em 2em 2em;
+}
+
+.section-link {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--very-dark-blue);
+    margin-bottom: 2em;
+}
 
 
 

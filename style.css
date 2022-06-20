@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+
 :root {
 --very-dark-blue: hsl(212, 27%, 19%);
 --very-dark-grayish-blue: hsl(213, 9%, 39%);
@@ -12,16 +15,15 @@
 --dark-moderate-cyan: hsl(168, 34%, 41%);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
-
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
 body,html {
-    font-family: 'Barlow', 'Fraunces', serif, sans-serif;
+    font-family: 'Fraunces',  sans-serif;
+    font-family: 'Barlow', serif;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -58,7 +60,7 @@ header {
 
 #header-text {
     margin-top: 7em;
-    margin-bottom: 16em;
+    margin-bottom: 15em;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -67,6 +69,7 @@ header {
 }
 
 #header-title {
+    font-family: 'Fraunces' sans-serif;
     text-transform: uppercase;
     color: var(--white);
     font-size: 3.5rem;
@@ -91,7 +94,7 @@ header {
 
 .content-title {
     color: var(--very-dark-blue);
-    font-family: 'Fraunces', serif;
+    font-family: 'Fraunces', sans-serif;
     font-size: 2rem;
     font-weight: bolder;
     margin-bottom: 2em;
@@ -111,6 +114,15 @@ header {
     font-size: 1.5rem;
     color: var(--very-dark-blue);
     margin-bottom: 2em;
+}
+
+.graphic-section-img {
+    position: relative;
+}
+
+.graphic-section-content {
+    position: absolute;
+    bottom: 0;
 }
 
 
